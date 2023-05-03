@@ -1,0 +1,19 @@
+app-footer {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+}
+
+.todos-wrapper{
+  height: 60%;
+  max-height: 60%;
+  overflow-y: auto;
+  border: 5px double gray;
+  width: 80%;
+  padding: 30px 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+
+}

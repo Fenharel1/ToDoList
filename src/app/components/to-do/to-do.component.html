@@ -1,0 +1,15 @@
+<div class="to-do">
+  <div class="check-section">
+    <input type="checkbox" (click)="checked()">
+  </div>
+  <div class="title-section" [ngClass]="{'stroke': myToDo.isChecked}" >
+    {{myToDo.title}}
+  </div>
+  <div class="description-section" [ngClass]="{'stroke': myToDo.isChecked}">
+    {{myToDo.description}}
+  </div>
+  <div class="buttons-section">
+    <button (click)="editToDo()" >Edit</button>
+    <button (click)="deleteToDo()" >Delete</button>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+.to-do{
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  width: 50%;
+  margin: 0 auto;
+  gap: 1em;
+}
+
+.check-section{
+  width: 3%;
+}
+.title-section{
+  font-weight: 500;
+  font-size: 1.2em;
+  text-align: center;
+
+  width: 20%;
+}
+
+.description-section{
+  font-size: 1em;
+  min-width: 60%;
+}
+
+.buttons-section{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 110px;
+}
+
+.stroke{
+  text-decoration: line-through;
+  text-decoration-thickness: 3px;
+}
